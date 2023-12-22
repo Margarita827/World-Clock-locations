@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock Project</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -17,19 +19,19 @@
         <option value="">Genth</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="montreal">
         <div>
-          <h2>Ottawa</h2>
-          <div class="date">Date</div>
+          <h2>Montreal</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">Time</div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="canberra">
         <div>
-          <h2>Camberra</h2>
-          <div class="date">Date</div>
+          <h2>Canberra</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">Time</div>
+        <div class="time"></div>
       </div>
     </div>
 
